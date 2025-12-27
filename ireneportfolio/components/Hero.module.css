@@ -1,0 +1,23 @@
+:root {
+  --header-height: 64px;
+}
+
+.hero {
+  min-height: 100vh;
+  padding-top: var(--header-height);
+
+  background-image: url("/your-image.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: pink;
+
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.heroOverlay {
+  padding: 0 24px;
+  /* max-width: 900px; */
+}

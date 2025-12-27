@@ -3,13 +3,14 @@
     box-sizing: border-box;
     top: 0;
     left: 0;
+    height: 64px;
     z-index: 1000;
-    width: 100%;
+    width: 100vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1rem 1.5rem;
-    background-color:grey;
+    background-color:transparent;
     font-size: 18px;
     font-weight: 700;
 }
