@@ -1,0 +1,33 @@
+.header {
+    position: fixed;
+    box-sizing: border-box;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    background-color:grey;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+}
+
+.header a:hover {
+    text-decoration: underline;
+}
+
+.left {
+    color: white;
+}
+
+.right {
+    display: flex;
+    gap: 1.5rem;
+}
