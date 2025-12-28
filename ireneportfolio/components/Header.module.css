@@ -4,13 +4,13 @@
     top: 0;
     left: 0;
     height: 64px;
-    z-index: 1000;
+    /* z-index: 9999; */
     width: 100vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1rem 1.5rem;
-    background-color:transparent;
+    background-color:pink;
     font-size: 18px;
     font-weight: 700;
 }

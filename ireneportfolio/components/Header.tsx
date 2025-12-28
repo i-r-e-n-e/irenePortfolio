@@ -8,9 +8,9 @@ export default function Header() {
         <Link href="/">Irene Chen</Link>
       </div>
       <nav className={styles.right}>
-        <Link href="/">About</Link>
-        <Link href="/about">Projects</Link>
-        <Link href="/projects">Contact</Link>
+        <Link href="/about">About</Link>
+        <Link href="/projects">Projects</Link>
+        <Link href="/contact">Contact</Link>
       </nav>
     </header>
   )
