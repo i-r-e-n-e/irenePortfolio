@@ -1,0 +1,33 @@
+.pageTitle {
+    margin: 0 0 24px;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.section {
+    margin-top: 48px;
+}
+
+.sectionTitle {
+    margin: 0 0 16px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.projectGrid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 16px;
+}
+
+@media (max-width: 900px) {
+    .projectGrid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 600px) {
+    .projectGrid {
+        grid-template-columns: 1fr;
+    }
+}

@@ -3,7 +3,7 @@
 }
 
 .hero {
-  min-height: 100vh;
+  min-height: 65vh;
   padding-top: var(--header-height);
 
   background-image: url("/your-image.jpg");
